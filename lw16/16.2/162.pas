@@ -13,7 +13,7 @@ BEGIN {SarahRevere}
    WHILE Looking AND NOT (Land OR Sea)   
    DO
      BEGIN
-      {Дввижение окна}
+      {Движение окна}
        BEGIN
          W1:= W2;
          W2:= W3;
