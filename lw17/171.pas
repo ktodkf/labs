@@ -21,6 +21,7 @@ END;{ReadDigit}
 
 BEGIN {SumDigit}
   Sum := 0;
+  Digit := 0;
   WHILE (NOT EOLN) AND (Digit <> -1) 
   DO
     BEGIN  
