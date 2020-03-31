@@ -3,7 +3,7 @@ VAR
   W1, W2, W3, W4: CHAR;
   Looking, Land, Sea: BOOLEAN;  
 BEGIN {SarahRevere}   
-  {Инициализация}
+  {РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ}
    W2:=' ';                                                                           
    W3:=' ';                                                                           
    W4:=' ';                                                                                                                                              
@@ -13,7 +13,7 @@ BEGIN {SarahRevere}
    WHILE Looking AND NOT (Land OR Sea)   
    DO
      BEGIN
-      {движение окна}
+      {Р”РІРёР¶РµРЅРёРµ РѕРєРЅР°}
        BEGIN
          W1:= W2;
          W2:= W3;
@@ -21,7 +21,7 @@ BEGIN {SarahRevere}
          READ(W4);
          Looking:= (W4 <> '#')
        END;
-       {проверка окна на land}        
+       {РџСЂРѕРІРµСЂРєР° РѕРєРЅР° РЅР° land}        
        Land := (W1 = 'l') AND (W2 = 'a') AND (W3 = 'n') AND (W4 = 'd'); 
      END;  
      IF Land 
