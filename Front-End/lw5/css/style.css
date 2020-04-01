@@ -92,7 +92,7 @@ margin: 0 auto;
 
 }
 
-.h1
+.name
 {
 	font-family: Open Sans;
 	font-weight: bold;
@@ -125,7 +125,7 @@ margin: 0 auto;
 	margin-top: 43px ;
 }
 
-.h2
+.my_hobby
 {
 	font-family: Open Sans;
 	font-weight: normal;
@@ -136,7 +136,7 @@ margin: 0 auto;
 	margin-top: 24px;
 }
 
-.text2
+.hobby
 {
 	font-family: Georgia;
 	font-size: 19px;
