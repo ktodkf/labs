@@ -1,35 +1,35 @@
 body
 {
-padding: 100px 0 0 0;
-max-width: 1000px;
-margin: 0 auto;
+    padding: 100px 0 0 0;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .container
 {
-	display: flex;
+    display: flex;
 }
 
 
 .photo
 {
-	width: 330px;
-	height: 350px;
-	border-radius: 5px;
-	float: left;
+    width: 330px;
+    height: 350px;
+    border-radius: 5px;
+    float: left;
 }
 
 .quote
 {
-	padding-top: 50px;
-	margin-left: -60px;
-	margin-bottom: 12px;
+    padding-top: 50px;
+    margin-left: -60px;
+    margin-bottom: 12px;
 }
 
 .quoteandcitata
 {
-	height: 350px;
-	padding-left: 450px;
+    height: 350px;
+    padding-left: 450px;
 }
 .citata::before
 {
@@ -43,122 +43,132 @@ margin: 0 auto;
     font-size: 28px;
     font-family: Georgia-Itali;
     font-style: oblique;
-	color: #848484;
-	margin-left: -75px;
-	line-height: 42px;
+    color: #848484;
+    margin-left: -75px;
+    line-height: 42px;
 }
 
 .spiski
 {
-	width: 330px;
-	float: left;
+    width: 330px;
+    float: left;
 }
 
 .favourite_animals
 {
-	margin-top: 49px;
-	font-family: Open Sans;
-	font-size: 24px;
-	color: #15a98c;
-	line-height: 1;
-	margin-bottom: -2px;
+    margin-top: 49px;
+    font-family: Open Sans;
+    font-size: 24px;
+    color: #15a98c;
+    line-height: 1;
+    margin-bottom: -2px;
 }
 
 .favourite_animals_list
 {
-	line-height:37px;
-	font-size: 19px;
-	font-family: Georgia;
-	color: #555555;
-	padding-inline-start: 21px;
+    line-height:37px;
+    font-size: 19px;
+    font-family: Georgia;
+    color: #555555; 
+    padding-inline-start: 21px;
 }
 
 .about_me
 {
-	margin-top: 40px;
-	font-family: Open Sans;
-	font-size: 24px;
-	color: #15a98c;
-	margin-bottom: -8px;
+    margin-top: 40px;
+    font-family: Open Sans;
+    font-size: 24px;
+    color: #15a98c;
+    margin-bottom: -8px;
 }
 
 .about_me_list
 {
-	font-size: 19px;
-	font-family: Georgia;
-	color: #555555;
-	padding-inline-start: 18px;
-	line-height:37px;
-
+    font-size: 19px;
+    font-family: Georgia;
+    color: #555555;
+    padding-inline-start: 18px;
+    line-height:37px;
 }
 
 .name
 {
-	font-family: Open Sans;
-	font-weight: bold;
-	font-size: 48px;
-	margin-bottom: 20px;
-	color: #333333;
-	width: 580px;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333333;
+    width: 580px;
 }
 
 .line
 {
-	border: 3px solid #45c3aa;
-	border-radius: 3px;
-	width: 54px;
-	margin: 0;
+    border: 3px solid #45c3aa;
+    border-radius: 3px;
+    width: 54px;
+    margin: 0;
 }
 
 .info
 {
-	padding-left: 390px;
+    padding-left: 390px;
 }
 
 .text
 {
-	font-family: Georgia;
-	font-size: 19px;
-	height: 200px;
-	line-height: 33px;
-	text-align: left;
-	margin-top: 43px ;
+    font-family: Georgia;
+    font-size: 19px;
+    height: 200px;
+    line-height: 33px;
+    text-align: left;
+    margin-top: 43px ;
 }
 
 .my_hobby
 {
-	font-family: Open Sans;
-	font-weight: normal;
-	font-size: 36px;
-	line-height: 60px;
-	letter-spacing: -0.4px;
-	margin-bottom: 20px;
-	margin-top: 24px;
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 60px;
+    letter-spacing: -0.4px;
+    margin-bottom: 20px;
+    margin-top: 24px;
 }
 
 .hobby
 {
-	font-family: Georgia;
-	font-size: 19px;
-	height: 190px;
-	line-height: 32px;
-	text-align: left;
-	margin-top: -10px ;
+    font-family: Georgia;
+    font-size: 19px;
+    height: 190px;
+    line-height: 32px;
+    text-align: left;
+    margin-top: -10px ;
 }
 
 cite
 {
-	font-size: 16px;
-	font-family: Open Sans;
-	font-style: normal;
-	font-weight: bold;
-	line-height: 18px;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 18px;
 }
 
 .link
 {
-	color: #15a98b;
-	font-family: Georgia;
-	font-size: 19px;
-	line-height: 0px
+    color: #15a98b;
+    font-family: Georgia;
+    font-size: 19px;
+    line-height: 0px;
+    position: relative;
 }
+
+.link::after
+{
+    content: '\2192';
+    display: block;
+    position: absolute;
+    left: 130px;
+    top: 12px;
+}
+	
