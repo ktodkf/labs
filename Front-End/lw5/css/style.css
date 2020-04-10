@@ -61,7 +61,7 @@ body
     font-size: 24px;
     color: #15a98c;
     line-height: 1;
-    margin-bottom: -2px;
+    margin-bottom: 15px;
 }
 
 .favourite_animals_list
@@ -70,7 +70,8 @@ body
     font-size: 19px;
     font-family: Georgia;
     color: #555555; 
-    padding-inline-start: 21px;
+    padding-inline-start: 20px;
+    margin-top: 1px;
 }
 
 .about_me
@@ -79,7 +80,7 @@ body
     font-family: Open Sans;
     font-size: 24px;
     color: #15a98c;
-    margin-bottom: -8px;
+    margin-bottom: 0px;
 }
 
 .about_me_list
@@ -87,8 +88,9 @@ body
     font-size: 19px;
     font-family: Georgia;
     color: #555555;
-    padding-inline-start: 18px;
-    line-height:37px;
+    padding-inline-start: 20px;
+    line-height:36px;
+    margin-top: 11px;
 }
 
 .name
@@ -119,9 +121,9 @@ body
     font-family: Georgia;
     font-size: 19px;
     height: 200px;
-    line-height: 33px;
+    line-height: 32px;
     text-align: left;
-    margin-top: 43px ;
+    margin-top: 45px ;
 }
 
 .my_hobby
@@ -131,7 +133,7 @@ body
     font-size: 36px;
     line-height: 60px;
     letter-spacing: -0.4px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     margin-top: 24px;
 }
 
@@ -142,7 +144,8 @@ body
     height: 190px;
     line-height: 32px;
     text-align: left;
-    margin-top: -10px ;
+    margin-top: 0px ;
+    margin-bottom: 20px;
 }
 
 cite
