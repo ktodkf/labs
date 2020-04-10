@@ -19,20 +19,22 @@ body
     float: left;
 }
 
-
 .quoteandcitata
 {
     height: 325px;
     padding-left: 394px;
     padding-top: 25px;
 }
+
 .citata::before
 {
     content: '';
+
 }   
 
 .citata
 {
+
     font-size: 28px;
     font-family: Georgia-Itali;
     font-style: oblique;
@@ -53,7 +55,6 @@ body
     font-size: 24px;
     color: #15a98c;
     line-height: 1;
-    margin-bottom: -2px;
 }
 
 .favourite_animals_list
@@ -62,7 +63,8 @@ body
     font-size: 19px;
     font-family: Georgia;
     color: #555555; 
-    padding-inline-start: 23px;
+    padding-inline-start: 21px;
+    margin-top: 1px;
 }
 
 .about
@@ -71,7 +73,7 @@ body
     font-family: Open Sans;
     font-size: 24px;
     color: #15a98c;
-    margin-bottom: -10px;
+    margin-bottom: 0px;
 }
 
 .about_me_list
@@ -81,6 +83,7 @@ body
     color: #555555;
     padding-inline-start: 21px;
     line-height:36px;
+    margin-top: 11px;
 }
 
 .name
@@ -124,7 +127,7 @@ body
     font-size: 36px;
     line-height: 60px;
     letter-spacing: -0.4px;
-    margin-bottom: 17px;
+    margin-bottom: 5px;
     margin-top: 24px;
 }
 
@@ -135,7 +138,8 @@ body
     height: 190px;
     line-height: 32px;
     text-align: left;
-    margin-top: -10px ;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 cite
@@ -162,10 +166,10 @@ cite
     content: '\2192';
     display: block;
     position: absolute;
-    left: 130px;
-    top: 12px;
+    left: 120px;
+    top: 10px;
 }
-	
+    
 .about_me
 {
     font-size: 19px;
@@ -198,11 +202,12 @@ cite
     margin: 0;
     padding: 0;
 }
-	
+    
 .navigation
 {
     height: 260px;
 }
+
 .my_hobbies
 {
     float: left;
@@ -247,7 +252,6 @@ cite
     background: url(../images/vb.png) no-repeat center top;
     display: block;
     background-position: 15px;
-    box-sizing: border-box;
 }
 
 .favorite_film:hover
@@ -268,7 +272,7 @@ cite
 .films
 {
     margin-left: -120px;
-    margin-top: 93px;
+    margin-top: 95px;
 }
 
 .film_pic
@@ -276,7 +280,6 @@ cite
     width: 285px;
     height: 190px;
     border-radius: 6px;
-    margin-bottom: -1px;
 }
 
 .name_film
@@ -330,6 +333,7 @@ cite
     padding-top: 10px;
     margin-left: 360px;
     box-sizing: border-box;
+
 }
 
 .end
@@ -340,7 +344,7 @@ cite
     font-size: 16px;
     font-family: Georgia;
     color: #555;
-    padding-top: 90px;
+    padding-top: 67px;
     padding-left: 115px;
     line-height: 32px;
 }
