@@ -1,0 +1,493 @@
+body
+{
+    max-width: 1236px;
+    margin: 0 auto;
+ background: url(../images/tima.png) no-repeat center top;
+    background-position: 0 50px;
+}
+}
+
+.container
+{
+    display: flex;
+}
+
+.photo
+{
+    width: 330px;
+    height: 350px;
+    border-radius: 5px;
+    float: left;
+}
+
+
+.quoteandcitata
+{
+    height: 325px;
+    padding-left: 394px;
+    padding-top: 25px;
+}
+.citata::before
+{
+    content: '';
+
+}   
+
+.citata
+{
+
+    font-size: 28px;
+    font-family: Georgia-Itali;
+    font-style: oblique;
+    color: #ffffff;
+    line-height: 42px;
+}
+
+.spiski
+{
+    width: 330px;
+    float: left;
+}
+
+.favourite_animals
+{
+    margin-top: 49px;
+    font-family: Open Sans;
+    font-size: 24px;
+    color: #15a98c;
+    line-height: 1;
+    margin-bottom: -2px;
+}
+
+.favourite_animals_list
+{
+    line-height:36px;
+    font-size: 19px;
+    font-family: Georgia;
+    color: #555555; 
+    padding-inline-start: 23px;
+}
+
+.about
+{
+    margin-top: 42px;
+    font-family: Open Sans;
+    font-size: 24px;
+    color: #15a98c;
+    margin-bottom: -10px;
+}
+
+.about_me_list
+{
+    font-size: 19px;
+    font-family: Georgia;
+    color: #555555;
+    padding-inline-start: 21px;
+    line-height:36px;
+}
+
+.name
+{
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333333;
+    width: 580px;
+}
+
+.line
+{
+    border: 3px solid #45c3aa;
+    border-radius: 3px;
+    width: 54px;
+    margin: 0;
+}
+
+.info
+{
+    padding-left: 390px;
+    margin-top: -167px;
+}
+
+.text
+{
+    font-family: Georgia;
+    font-size: 19px;
+    height: 200px;
+    line-height: 32px;
+    text-align: left;
+    margin-top: 45px ;
+}
+
+.my_hobby
+{
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 60px;
+    letter-spacing: -0.4px;
+    margin-bottom: 17px;
+    margin-top: 24px;
+}
+
+.hobby
+{
+    font-family: Georgia;
+    font-size: 19px;
+    height: 190px;
+    line-height: 32px;
+    text-align: left;
+    margin-top: -10px ;
+}
+
+cite
+{
+    font-size: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.link
+{
+    color: #15a98b;
+    font-family: Georgia;
+    font-size: 19px;
+    line-height: 0px;
+    position: relative;
+}
+
+.link::after
+{
+    content: '\2192';
+    display: block;
+    position: absolute;
+    left: 120px;
+    top: 10px;
+}
+	
+.about_me
+{
+    font-size: 19px;
+    font-family: Georgia;
+    color: #333333;
+    float: left;
+    padding-top: 15px;
+    text-align: center;
+    line-height: 22px;
+    text-decoration: none;
+    padding-left: 26px;
+    padding-bottom: 15px;
+    padding-right: 23px;
+    background: url(../images/ab.png) no-repeat center top;
+    display: block;
+    background-position: 21px;
+    box-sizing: border-box;
+}  
+
+.about_me:hover
+{
+	background: #15a98b url(../images/al.png) no-repeat center top;
+    color: #ffe;
+    background-position: 21px;
+}
+
+.navigation_lists
+{
+     list-style-type: none;
+     margin: 0;
+    padding: 0;
+}
+	
+.navigation
+{
+	height: 260px;
+}
+.my_hobbies
+{
+	float: left;
+	font-size: 19px;
+    font-family: Georgia;
+    color: #333333;
+    text-align: center;
+    margin-top: 0px;
+    line-height: 22px;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-left: 45px;
+    padding-bottom: 14px;
+    padding-right: 25px;
+    background: url(../images/hb.png) no-repeat center top;
+    display: block;
+    background-position: 19px;
+    box-sizing: border-box;
+}
+
+.my_hobbies:hover
+{
+	background: #15a98b url(../images/hl.png) no-repeat center top;;
+    color: #ffe;
+    background-position: 19px;
+}
+
+.favorite_film
+{
+	float: left;
+	font-size: 19px;
+    font-family: Georgia;
+    color: #333333;
+    text-align: center;
+    margin-top: 0px;
+    line-height: 22px;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-left: 41px;
+    padding-bottom: 14px;
+    padding-right: 20px;
+    background: url(../images/vb.png) no-repeat center top;
+    display: block;
+    background-position: 15px;
+    box-sizing: border-box;
+}
+
+.favorite_film:hover
+{
+	background: #15a98b url(../images/vl.png) no-repeat center top;;
+    color: #ffe;
+    background-position: 15px;
+}
+
+.favourite_films
+{
+	font-size: 36px;
+	font-family: Open Sans;
+	color: #333333;
+	font-weight: normal;
+}
+
+.films
+{
+	margin-left: -120px;
+	margin-top: 93px;
+}
+
+.film_pic
+{
+	width: 285px;
+	height: 190px;
+    border-radius: 6px;
+    margin-bottom: -1px;
+}
+
+.name_film
+{
+	font-family: Open Sans;
+	font-size: 22px;
+	font-weight: Bold;
+	color: #333333;
+	margin-bottom: 0px;
+}
+
+.text_film
+{
+	font-family: Georgia;
+	font-size: 16px;
+	color: #555;
+	line-height: 28px;
+}
+
+.film
+{
+	width: 285px;
+	box-sizing: border-box;
+	float: left;
+	margin-right: 20px;
+}
+
+.film_four
+{
+	width: 285px;
+	box-sizing: border-box;
+	float: left;
+	margin-right: 20px;
+}
+
+.button
+{
+	border-radius: 5px;
+	display: block;
+
+    margin-top: 850px;
+    margin-left: 362px;
+    font-family: Georgia;
+    font-size: 19px; 
+
+
+    text-decoration: none;
+    color: #f5f5f5;
+    line-height: 32px;
+    background-color: #15a98c;
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 360px;
+    box-sizing: border-box;
+
+}
+
+.end
+{
+	display: block;
+	position: absolute;
+	text-align: center;
+	font-size: 16px;
+	font-family: Georgia;
+	color: #555;
+	padding-top: 67px;
+    padding-left: 115px;
+    line-height: 32px;
+}
+
+.title
+{
+    overflow: hidden;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 36px;
+    color: #333;
+    font-weight: 300;
+    line-height: 42px;
+    margin-top: 105px;
+    letter-spacing: -1px;
+    padding-right: 290px;
+    margin-bottom: 70px;
+}
+
+.title:before,
+.title:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 23%;
+    height: 1px;
+    background: #333;
+    border: solid #333;
+    border-width: 0 10px;
+    margin-top: -5px;
+}
+.title:before {
+    margin-left: -100%;
+}
+.title:after {
+    margin-right: -100%;
+}
+
+.control_label
+{
+    font-family: "DejaVu Sans";
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+    margin-left: 207px;
+    word-spacing: -3px;
+}
+
+.required
+{
+    color: red;
+    font-size: 24px;
+}
+
+.field
+{
+    margin-left: 209px;
+    border: 2px solid #c9c9c9;
+    width: 521px; 
+    height: 45px;
+    border-radius: 2px;
+    margin-top: -10px;
+    padding-left: 16px;
+    font: 18px 'Open Sans', sans-serif;
+}
+
+.email_f
+{
+    margin-top: 24px;
+}
+
+.country
+{
+    margin-top: 28px;
+    box-sizing: border-box; 
+    margin-bottom: 42px;
+
+}
+
+.select
+{
+    margin-left: 210px;
+    margin-top: 7px;
+    width: 540px;
+    height: 50px;
+    border: 2px solid #c9c9c9;
+    color: #555;
+    border-radius: 3px;
+    font: 18px 'Open Sans', sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-left: 16px;
+    font-weight: 400;
+    background: url(../images/arrow.png) no-repeat;
+    background-position: 497px 14px;
+}
+
+.gender
+{
+    margin-top: 11px;
+    margin-left: 206px;
+    margin-bottom: 41px;
+}
+
+.gender label
+{
+    padding-right: 31px;
+    font-size: 18px;
+    font-family: Open Sans;
+}
+
+.message
+{
+    margin-left: 210px;
+    border-radius: 2px;
+    color: #555;
+    font: 18px 'Open Sans', sans-serif;
+    resize: none;
+    box-sizing: border-box;
+    height: 150px;
+    margin-top: 6px;
+    width: 540px;
+}
+
+.button_send
+{
+    border-radius: 5px;
+    border: 1px solid #f5f5f5;
+    color: #f5f5f5;
+    background-color: #15a98c;
+    width: 220px;
+    height: 50px;
+    margin-top: 46px;
+    margin-left: 210px;
+    font: 19px Georgia, serif;
+}
+
+.field, .country, .message:focus
+{
+    outline-color: #15a98c;
+}
