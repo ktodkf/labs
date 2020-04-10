@@ -2,7 +2,7 @@ body
 {
     max-width: 1236px;
     margin: 0 auto;
- background: url(../images/tima.png) no-repeat center top;
+    background: url(../images/tima.png) no-repeat center top;
     background-position: 0 50px;
 }
 }
@@ -30,12 +30,10 @@ body
 .citata::before
 {
     content: '';
-
 }   
 
 .citata
 {
-
     font-size: 28px;
     font-family: Georgia-Itali;
     font-style: oblique;
@@ -56,7 +54,6 @@ body
     font-size: 24px;
     color: #15a98c;
     line-height: 1;
-    margin-bottom: -2px;
 }
 
 .favourite_animals_list
@@ -65,7 +62,8 @@ body
     font-size: 19px;
     font-family: Georgia;
     color: #555555; 
-    padding-inline-start: 23px;
+    padding-inline-start: 21px;
+    margin-top: 1px;	
 }
 
 .about
@@ -74,7 +72,7 @@ body
     font-family: Open Sans;
     font-size: 24px;
     color: #15a98c;
-    margin-bottom: -10px;
+    margin-bottom: 0px;
 }
 
 .about_me_list
@@ -84,6 +82,7 @@ body
     color: #555555;
     padding-inline-start: 21px;
     line-height:36px;
+    margin-top: 11px;
 }
 
 .name
@@ -127,7 +126,7 @@ body
     font-size: 36px;
     line-height: 60px;
     letter-spacing: -0.4px;
-    margin-bottom: 17px;
+    margin-bottom: 5px;
     margin-top: 24px;
 }
 
@@ -138,7 +137,8 @@ body
     height: 190px;
     line-height: 32px;
     text-align: left;
-    margin-top: -10px ;
+    margin-top: 0px ;
+    margin-bottom: 20px;
 }
 
 cite
@@ -271,7 +271,7 @@ cite
 .films
 {
     margin-left: -120px;
-    margin-top: 93px;
+    margin-top: 95px;
 }
 
 .film_pic
@@ -279,7 +279,6 @@ cite
     width: 285px;
     height: 190px;
     border-radius: 6px;
-    margin-bottom: -1px;
 }
 
 .name_film
@@ -357,7 +356,7 @@ cite
     color: #333;
     font-weight: 300;
     line-height: 42px;
-    margin-top: 105px;
+    margin-top: 104px;
     letter-spacing: -1px;
     padding-right: 290px;
     margin-bottom: 70px;
@@ -368,14 +367,13 @@ cite
 {
     content: '';
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: super;
     box-sizing: border-box;
     width: 23%;
     height: 1px;
     background: #333;
     border: solid #333;
     border-width: 0 10px;
-    margin-top: -5px;
 }
 
 .title:before
@@ -411,14 +409,16 @@ cite
     width: 521px; 
     height: 45px;
     border-radius: 2px;
-    margin-top: -10px;
+    margin-top: 5px;
     padding-left: 16px;
+    padding-top: 1px;
     font: 18px 'Open Sans', sans-serif;
 }
 
 .email_f
 {
-    margin-top: 24px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .country
@@ -491,4 +491,10 @@ cite
 .field, .country, .message:focus
 {
     outline-color: #15a98c;
+}
+
+.your_name
+{
+    margin-bottom: 26px;
+    padding-bottom: 0px;
 }
