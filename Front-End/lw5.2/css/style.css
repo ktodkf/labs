@@ -2,10 +2,10 @@ body
 {
     max-width: 1236px;
     margin: 0 auto;
-    background: url(../images/tima.png) no-repeat center top;
+    background: url(../images/background.png) no-repeat center top;
     background-position: 0 50px;
 }
-
+}
 .container
 {
     display: flex;
@@ -42,7 +42,7 @@ body
     line-height: 42px;
 }
 
-.spiski
+.lists
 {
     width: 330px;
     float: left;
@@ -67,7 +67,7 @@ body
     margin-top: 1px;
 }
 
-.about
+.me
 {
     margin-top: 42px;
     font-family: Open Sans;
@@ -183,7 +183,7 @@ cite
     padding-left: 26px;
     padding-bottom: 15px;
     padding-right: 23px;
-    background: url(../images/ab.png) no-repeat center top;
+    background: url(../images/about_me_black.png) no-repeat center top;
     display: block;
     background-position: 21px;
     box-sizing: border-box;
@@ -191,7 +191,7 @@ cite
 
 .about_me:hover
 {
-    background: #15a98b url(../images/al.png) no-repeat center top;
+    background: #15a98b url(../images/about_me_white.png) no-repeat center top;
     color: #ffe;
     background-position: 21px;
 }
@@ -222,7 +222,7 @@ cite
     padding-left: 45px;
     padding-bottom: 14px;
     padding-right: 25px;
-    background: url(../images/hb.png) no-repeat center top;
+    background: url(../images/hobby_black.png) no-repeat center top;
     display: block;
     background-position: 19px;
     box-sizing: border-box;
@@ -230,7 +230,7 @@ cite
 
 .my_hobbies:hover
 {
-    background: #15a98b url(../images/hl.png) no-repeat center top;;
+    background: #15a98b url(../images/hobby_white.png) no-repeat center top;;
     color: #ffe;
     background-position: 19px;
 }
@@ -249,14 +249,14 @@ cite
     padding-left: 41px;
     padding-bottom: 14px;
     padding-right: 20px;
-    background: url(../images/vb.png) no-repeat center top;
+    background: url(../images/video_black.png) no-repeat center top;
     display: block;
     background-position: 15px;
 }
 
 .favorite_film:hover
 {
-    background: #15a98b url(../images/vl.png) no-repeat center top;;
+    background: #15a98b url(../images/video_white.png) no-repeat center top;;
     color: #ffe;
     background-position: 15px;
 }
@@ -275,7 +275,7 @@ cite
     margin-top: 95px;
 }
 
-.film_pic
+.film_picture
 {
     width: 285px;
     height: 190px;
