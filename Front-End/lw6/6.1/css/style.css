@@ -27,15 +27,14 @@ body
     padding-left: 394px;
     padding-top: 25px;
 }
+
 .citata::before
 {
     content: '';
-
 }   
 
 .citata
 {
-
     font-size: 28px;
     font-family: Georgia-Itali;
     font-style: oblique;
@@ -160,7 +159,7 @@ cite
     font-size: 19px;
     line-height: 0px;
     position: relative;
-   }
+}
 
 .link::after
 {
@@ -192,26 +191,26 @@ cite
 
 .about_me:hover
 {
-	background: #15a98b url(../images/about_me_white.png) no-repeat center top;
+    background: #15a98b url(../images/about_me_white.png) no-repeat center top;
     color: #ffe;
     background-position: 21px;
 }
 
 .navigation_lists
 {
-     list-style-type: none;
-     margin: 0;
+    list-style-type: none;
+    margin: 0;
     padding: 0;
 }
 	
 .navigation
 {
-	height: 260px;
+    height: 260px;
 }
 .my_hobbies
 {
-	float: left;
-	font-size: 19px;
+    float: left;
+    font-size: 19px;
     font-family: Georgia;
     color: #333333;
     text-align: center;
@@ -230,15 +229,15 @@ cite
 
 .my_hobbies:hover
 {
-	background: #15a98b url(../images/hobby_white.png) no-repeat center top;;
+    background: #15a98b url(../images/hobby_white.png) no-repeat center top;;
     color: #ffe;
     background-position: 19px;
 }
 
 .favorite_film
 {
-	float: left;
-	font-size: 19px;
+    float: left;
+    font-size: 19px;
     font-family: Georgia;
     color: #333333;
     text-align: center;
@@ -256,69 +255,69 @@ cite
 
 .favorite_film:hover
 {
-	background: #15a98b url(../images/video_white.png) no-repeat center top;;
+    background: #15a98b url(../images/video_white.png) no-repeat center top;;
     color: #ffe;
     background-position: 15px;
 }
 
 .favourite_films
 {
-	font-size: 36px;
-	font-family: Open Sans;
-	color: #333333;
-	font-weight: normal;
+    font-size: 36px;
+    font-family: Open Sans;
+    color: #333333;
+    font-weight: normal;
 }
 
 .films
 {
-	margin-left: -120px;
-	margin-top: 95px;
+    margin-left: -120px;
+    margin-top: 95px;
 }
 
 .film_picture
 {
-	width: 285px;
-	height: 190px;
+    width: 285px;
+    height: 190px;
     border-radius: 6px;
 }
 
 .name_film
 {
-	font-family: Open Sans;
-	font-size: 22px;
-	font-weight: Bold;
-	color: #333333;
-	margin-bottom: 0px;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: Bold;
+    color: #333333;
+    margin-bottom: 0px;
 }
 
 .text_film
 {
-	font-family: Georgia;
-	font-size: 16px;
-	color: #555;
-	line-height: 28px;
+    font-family: Georgia;
+    font-size: 16px;
+    color: #555;
+    line-height: 28px;
 }
 
 .film
 {
-	width: 285px;
-	box-sizing: border-box;
-	float: left;
-	margin-right: 20px;
+    width: 285px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 20px;
 }
 
 .film_four
 {
-	width: 285px;
-	box-sizing: border-box;
-	float: left;
-	margin-right: 20px;
+    width: 285px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 20px;
 }
 
 .button
 {
-	border-radius: 5px;
-	display: block;
+    border-radius: 5px;
+    display: block;
     margin-top: 850px;
     margin-left: 362px;
     font-family: Georgia;
@@ -333,18 +332,17 @@ cite
     padding-top: 10px;
     margin-left: 360px;
     box-sizing: border-box;
-
 }
 
 .end
 {
-	display: block;
-	position: absolute;
-	text-align: center;
-	font-size: 16px;
-	font-family: Georgia;
-	color: #555;
-	padding-top: 67px;
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    font-family: Georgia;
+    color: #555;
+    padding-top: 67px;
     padding-left: 115px;
     line-height: 32px;
 }
@@ -365,7 +363,8 @@ cite
 }
 
 .title:before,
-.title:after {
+.title:after 
+{
     content: '';
     display: inline-block;
     vertical-align: super;
@@ -377,11 +376,13 @@ cite
     border-width: 0 10px;
 }
 
-.title:before {
+.title:before 
+{
     margin-left: -100%;
 }
 
-.title:after {
+.title:after 
+{
     margin-right: -100%;
 }
 
@@ -424,7 +425,6 @@ cite
     margin-top: 28px;
     box-sizing: border-box; 
     margin-bottom: 43px;
-
 }
 
 .select
