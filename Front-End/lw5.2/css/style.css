@@ -5,7 +5,7 @@ body
     background: url(../images/background.png) no-repeat center top;
     background-position: 0 50px;
 }
-}
+
 .container
 {
     display: flex;
@@ -271,8 +271,8 @@ cite
 
 .films
 {
-    margin-left: -120px;
-    margin-top: 95px;
+    margin-left: -1133px;
+    margin-top: 941px;
 }
 
 .film_picture
@@ -319,7 +319,7 @@ cite
 {
     border-radius: 5px;
     display: block;
-    margin-top: 850px;
+    margin-top: 150px;
     margin-left: 362px;
     font-family: Georgia;
     font-size: 19px; 
