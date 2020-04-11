@@ -10,7 +10,6 @@ body
     display: flex;
 }
 
-
 .photo
 {
     width: 330px;
@@ -31,6 +30,7 @@ body
     height: 350px;
     padding-left: 450px;
 }
+
 .citata::before
 {
     content: '';
@@ -48,7 +48,7 @@ body
     line-height: 42px;
 }
 
-.spiski
+.lists
 {
     width: 330px;
     float: left;
@@ -174,4 +174,3 @@ cite
     left: 130px;
     top: 12px;
 }
-	
