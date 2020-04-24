@@ -1,121 +1,105 @@
-.container
-{
+.container {
     padding: 100px 0 0 0;
     max-width: 1000px;
     margin: 0 auto;
 }
 
-.photo_quote
-{
-    float: left;
-    margin-bottom: 45px;
+.quote {
+    padding-top: 50px;
+    margin-left: 60px;
 }
 
-.photo
-{
+.top {
+    display: flex;
+}
+
+.photo {
     width: 330px;
     height: 350px;
-    float: left;
 }
 
-.quote
-{
-    padding-top: 20px;
+.quotes {
+    margin-left: -65px;
+    padding-top: 116px;
 }
 
-.quotes
-{
-    padding-top: 30px;
-    margin-left: 390px;
-}
-
-.text_quote::before
-{
+.text_quote::before {
     content: '';
-}   
+}
 
-.text_quote
-{
+.text_quote {
     color: #848484;
-    margin: -20px 0 14px 60px;
-    float: right;
     font: italic 28px/42px Georgia;
 }
 
-.author
-{
-    margin-left: 63px;
+.author {
     font: normal bold 16px/18px Open Sans;
+    margin-top: 17px
 }
 
-.lists
-{
+.lists {
     width: 330px;
-    float: left;
 }
 
-.title_list
-{
+.title_list {
     font: 600 24px/32px Open Sans;
     color: #15a98c;
 }
 
-.element_lists
-{
-    color: #555555; 
-    margin: 13px 0 43px -20px;
+.element_lists {
+    color: #555555;
+    margin: 13px 0 43px -17px;
     font: 19px/36px Georgia;
 }
 
-.name
-{
-    margin-bottom: 33px;
+.name {
+    margin: 2px 0 30px 0;
     color: #333333;
     width: 580px;
     font: 700 48px/42px Open Sans;
 }
 
-.line
-{
+.line {
     border: 3px solid #45c3aa;
     border-radius: 3px;
     width: 54px;
     margin: 0;
-    margin-bottom: 45px;
+    margin-bottom: 44px;
 }
 
-.info
-{
-    padding-left: 390px;
+.info {
+    margin-left: 61px;
+    width: 570px;
 }
 
-.text
-{
+.text {
     text-align: left;
-    margin-top: 7px ;
-    font: 19px/32px Georgia;
+    margin-top: 7px;
+    font: 19px/33px Georgia;
     color: #555555;
 }
 
-.my_hobby
-{
+.my_hobby {
     font: normal 36px/60px Open Sans;
-    margin: 36px 0 5px 0;
+    margin: 31px 0 5px 0;
 }
 
-.link
-{
+.link {
     color: #15a98b;
     font: 19px Georgia;
     position: relative;
-    top: 30px;
+    top: 28px;
     text-decoration: underline;
 }
 
-.link::after
-{
+.link::after {
     content: '\2192';
     display: inline-block;
     position: absolute;
     left: 121px;
+}
+
+.top_information {
+    display: flex;
+    margin-top: 42px;
 }
