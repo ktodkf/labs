@@ -1,497 +1,388 @@
-body
-{
-    max-width: 1236px;
-    margin: 0 auto;
-    background: url(../images/background.png) no-repeat center top;
-    background-position: 0 50px;
-}
-
-.container
-{
-    display: flex;
-}
-
-.photo
-{
-    width: 330px;
-    height: 350px;
-    border-radius: 5px;
-    float: left;
-}
-
-
-.quoteandcitata
-{
-    height: 325px;
-    padding-left: 394px;
-    padding-top: 25px;
-}
-
-.citata::before
-{
-    content: '';
-}   
-
-.citata
-{
-    font-size: 28px;
-    font-family: Georgia-Itali;
-    font-style: oblique;
-    color: #ffffff;
-    line-height: 42px;
-}
-
-.lists
-{
-    width: 330px;
-    float: left;
-}
-
-.favourite_animals
-{
-    margin-top: 49px;
-    font-family: Open Sans;
-    font-size: 24px;
-    color: #15a98c;
-    line-height: 1;
-}
-
-.favourite_animals_list
-{
-    line-height:36px;
-    font-size: 19px;
-    font-family: Georgia;
-    color: #555555; 
-    padding-inline-start: 21px;
-    margin-top: 1px;
-}
-
-.me
-{
-    margin-top: 42px;
-    font-family: Open Sans;
-    font-size: 24px;
-    color: #15a98c;
-    margin-bottom: 0px;
-}
-
-.about_me_list
-{
-    font-size: 19px;
-    font-family: Georgia;
-    color: #555555;
-    padding-inline-start: 21px;
-    line-height:36px;
-    margin-top: 11px;
-}
-
-.name
-{
-    font-family: Open Sans;
-    font-weight: bold;
-    font-size: 48px;
-    margin-bottom: 20px;
-    color: #333333;
-    width: 580px;
-}
-
-.line
-{
-    border: 3px solid #45c3aa;
-    border-radius: 3px;
-    width: 54px;
+body {
+    background: url("../images/background.png") no-repeat;
+    background-position-y: 50px;
     margin: 0;
 }
 
-.info
-{
-    padding-left: 390px;
-    margin-top: -167px;
+.information {
+    margin-top: 210px;
 }
 
-.text
-{
-    font-family: Georgia;
-    font-size: 19px;
-    height: 200px;
-    line-height: 32px;
-    text-align: left;
-    margin-top: 45px ;
+.container {
+    max-width: 950px;
+    margin: 0 auto;
 }
 
-.my_hobby
-{
-    font-family: Open Sans;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 60px;
-    letter-spacing: -0.4px;
-    margin-bottom: 5px;
-    margin-top: 24px;
+.navigation {
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
 }
 
-.hobby
-{
-    font-family: Georgia;
-    font-size: 19px;
-    height: 190px;
-    line-height: 32px;
-    text-align: left;
-    margin-top: 0px;
-    margin-bottom: 20px;
+.photo {
+    width: 330px;
+    height: 350px;
+    margin: 210px 0 0 0;
 }
 
-cite
-{
-    font-size: 16px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 18px;
-    color: #ffffff;
+.quotes {
+    padding-bottom: 0;
+    margin: -325px 0 0 395px;
 }
 
-.link
-{
-    color: #15a98b;
-    font-family: Georgia;
-    font-size: 19px;
-    line-height: 0px;
-    position: relative;
+.text_quote::before {
+    content: '';
 }
 
-.link::after
-{
-    content: '\2192';
-    display: block;
-    position: absolute;
-    left: 120px;
-    top: 10px;
+.text_quote {
+    color: #fff;
+    font: italic 28px/42px Georgia;
+    margin-bottom: 0;
 }
-	
-.about_me
-{
-    font-size: 19px;
-    font-family: Georgia;
+
+.author {
+    font: 600 16px/42px Open Sans;
+    color: #f5f5f5;
+    margin-top: 4px;
+}
+
+.top_information {
+    display: flex;
+    margin-top: 50px;
+}
+
+.lists {
+    width: 330px;
+    margin-top: 192px;
+}
+
+.title_list {
+    font: 600 24px/32px Open Sans;
+    color: #15a98c;
+}
+
+.element_lists {
+    color: #555555;
+    margin: 12px 0 41px -20px;
+    font: 19px/36px Georgia;
+}
+
+.name {
     color: #333333;
-    float: left;
-    padding-top: 15px;
+    width: 580px;
+    font: 700 48px/42px Open Sans;
+    margin: 31px 0 32px 10px;
+}
+
+.line {
+    border: 3px solid #45c3aa;
+    border-radius: 3px;
+    width: 54px;
+    margin: 0 0 43px 10px;
+}
+
+.info {
+    margin-left: 75px;
+    width: 570px;
+}
+
+.text {
+    text-align: left;
+    margin: 7px 0 16px 11px;
+    font: 19px/32px Georgia;
+    color: #555555;
+}
+
+.my_hobby {
+    font: normal 36px/60px Open Sans;
+    margin: 33px 0 8px 10px;
+}
+
+.link {
+    color: #15a98b;
+    font: 19px Georgia;
+    position: relative;
+    top: 30px;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.link::after {
+    content: '\2192';
+    display: inline-block;
+    position: absolute;
+    left: 121px;
+}
+
+.about_me {
+    color: #333333;
     text-align: center;
-    line-height: 22px;
     text-decoration: none;
-    padding-left: 26px;
-    padding-bottom: 15px;
-    padding-right: 23px;
     background: url(../images/about_me_black.png) no-repeat center top;
     display: block;
     background-position: 21px;
     box-sizing: border-box;
-}  
+    font: 19px/22px Georgia;
+    padding: 15px 23px 14px 26px;
+}
 
-.about_me:hover
-{
+.about_me:hover {
     background: #15a98b url(../images/about_me_white.png) no-repeat center top;
     color: #ffe;
     background-position: 21px;
 }
 
-.navigation_lists
-{
+.navigation_lists {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left: 0;
+    display: flex;
 }
-	
-.navigation
-{
-    height: 260px;
-}
-.my_hobbies
-{
-    float: left;
-    font-size: 19px;
-    font-family: Georgia;
+
+.my_hobbies {
+    font: 19px/22px Georgia;
     color: #333333;
     text-align: center;
     margin-top: 0px;
-    line-height: 22px;
     text-decoration: none;
-    padding-top: 15px;
-    padding-left: 45px;
-    padding-bottom: 14px;
-    padding-right: 25px;
+    padding: 15px 25px 14px 45px;
     background: url(../images/hobby_black.png) no-repeat center top;
     display: block;
     background-position: 19px;
     box-sizing: border-box;
+
 }
 
-.my_hobbies:hover
-{
-    background: #15a98b url(../images/hobby_white.png) no-repeat center top;;
+.my_hobbies:hover {
+    background: #15a98b url(../images/hobby_white.png) no-repeat center top;
     color: #ffe;
     background-position: 19px;
 }
 
-.favorite_film
-{
-    float: left;
-    font-size: 19px;
-    font-family: Georgia;
+.favorite_film {
+    font: 19px/22px Georgia;
     color: #333333;
     text-align: center;
     margin-top: 0px;
-    line-height: 22px;
     text-decoration: none;
-    padding-top: 15px;
-    padding-left: 41px;
-    padding-bottom: 14px;
-    padding-right: 20px;
+    padding: 15px 20px 14px 41px;
     background: url(../images/video_black.png) no-repeat center top;
     display: block;
     background-position: 15px;
 }
 
-.favorite_film:hover
-{
-    background: #15a98b url(../images/video_white.png) no-repeat center top;;
+.favorite_film:hover {
+    background: #15a98b url(../images/video_white.png) no-repeat center top;
     color: #ffe;
     background-position: 15px;
 }
 
-.favourite_films
-{
-    font-size: 36px;
-    font-family: Open Sans;
+.favourite_films {
+    font: normal 36px Open Sans;
     color: #333333;
-    font-weight: normal;
+    margin-left: 167px;
 }
 
-.films
-{
-    margin-left: -1133px;
-    margin-top: 941px;
+.bottom {
+    background-color: #f9f9f9;
+    margin-top: 117px;
 }
 
-.film_picture
-{
+.films {
+    padding-left: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.film_picture {
     width: 285px;
     height: 190px;
     border-radius: 6px;
 }
 
-.name_film
-{
-    font-family: Open Sans;
-    font-size: 22px;
-    font-weight: Bold;
+.name_film {
+    font: Bold 22px Open Sans;
     color: #333333;
-    margin-bottom: 0px;
+    margin-bottom: 18px;
 }
 
-.text_film
-{
-    font-family: Georgia;
-    font-size: 16px;
+.text_film {
+    font: 16px/28px Georgia;
     color: #555;
-    line-height: 28px;
 }
 
-.film
-{
+.film {
     width: 285px;
     box-sizing: border-box;
-    float: left;
     margin-right: 20px;
 }
 
-.film_four
-{
-    width: 285px;
-    box-sizing: border-box;
-    float: left;
-    margin-right: 20px;
-}
-
-.button
-{
+.button {
     border-radius: 5px;
     display: block;
-    margin-top: 150px;
-    margin-left: 362px;
-    font-family: Georgia;
-    font-size: 19px; 
+    margin: 37px 0 0 646px;
+    font: 19px/32px Georgia;
     text-decoration: none;
     color: #f5f5f5;
-    line-height: 32px;
     background-color: #15a98c;
     width: 220px;
     height: 50px;
     text-align: center;
     padding-top: 10px;
-    margin-left: 360px;
     box-sizing: border-box;
 }
 
-.end
-{
+.end {
     display: block;
     position: absolute;
     text-align: center;
-    font-size: 16px;
-    font-family: Georgia;
+    font: 16px/32px Georgia;
     color: #555;
-    padding-top: 67px;
-    padding-left: 115px;
-    line-height: 32px;
+    padding: 67px 0 0 400px;
 }
 
-.title
-{
-    overflow: hidden;
+.forms{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.write{
+    font: normal 35px/42px Open Sans;
+}
+
+.title{
     text-align: center;
-    font-family: Open Sans;
-    font-size: 36px;
-    color: #333;
-    font-weight: 300;
-    line-height: 42px;
-    margin-top: 104px;
-    letter-spacing: -1px;
-    padding-right: 290px;
-    margin-bottom: 72px;
+    margin: 57px 0 21px 0;
 }
 
-.title:before,
-.title:after 
-{
-    content: '';
+.left{
+    position: relative;
+    left: 247px;
+    top: 56px;
     display: inline-block;
-    vertical-align: super;
-    box-sizing: border-box;
-    width: 23%;
     height: 1px;
-    background: #333;
-    border: solid #333;
-    border-width: 0 10px;
+    width: 200px;
+    background: #c4c4c4;
 }
 
-.title:before 
-{
-    margin-left: -100%;
+.right{
+    position: relative;
+    right: 250px;
+    top: -62px;
+    display: inline-block;
+    height: 1px;
+    width: 200px;
+    background: #c4c4c4;
 }
 
-.title:after 
-{
-    margin-right: -100%;
+.control_label{
+    font: 400 20px/32px Open Sans;
+    color: #333;
 }
 
-.control_label
-{
-    font-family: "DejaVu Sans";
-    font-weight: 400;
-    font-size: 23px;
-    color: #000;
-    margin-left: 208px;
-}
-
-.required
-{
+.required{
     color: red;
     font-size: 24px;
 }
 
-.field
-{
-    margin-left: 209px;
+.form{
+    max-width: 540px;
+    padding-left: 7px;
+    margin: 0 auto;
+}
+
+.field{
+    margin: 5px 0 0 2px;
     border: 2px solid #c9c9c9;
-    width: 521px; 
+    width: 524px;
     height: 45px;
-    border-radius: 2px;
-    margin-top: 5px;
-    padding-left: 16px;
-    padding-top: 1px;
-    font: 19px 'DejaVu Sans', sans-serif;
+    font: 400 18px 'Open Sans', sans-serif;
+    padding: 2px 0 0 12px;
+    border-radius: 3px;
 }
 
-.email
-{
-    margin-top: 10px;
-    margin-bottom: 0px;
+.field:hover{
+    cursor: pointer;
 }
 
-.country
-{
-    margin-top: 28px;
-    box-sizing: border-box; 
-    margin-bottom: 43px;
+.form_title{
+    margin-bottom: 22px;
 }
 
-.select
-{
-    margin-left: 210px;
-    margin-top: 7px;
+.select{
+    margin: 4px 0 18px 2px;
     width: 540px;
     height: 50px;
     border: 2px solid #c9c9c9;
     color: #555;
-    border-radius: 3px;
-    font: 18px 'DejaVu Sans', sans-serif;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    padding-left: 16px;
-    font-weight: 400;
     background: url(../images/arrow.png) no-repeat;
     background-position: 497px 14px;
+    padding-left: 15px;
+    font: 18px Open Sans, sans-serif;
+    border-radius: 3px;
+}
+.select:hover{
+    border-radius: 3px;
+    border: 2px solid #a6a6a6;
+    cursor: pointer;
 }
 
-.gender
-{
-    margin-top: 11px;
-    margin-left: 206px;
-    margin-bottom: 41px;
+.gender{
+    margin: 11px 0 38px 2px;
 }
 
-.gender label
-{
-    padding-right: 31px;
-    font-size: 18px;
-    font-family: Open Sans;
+.gender_radio{
+    margin-top: 10px;
 }
 
-.message
-{
-    margin-left: 210px;
-    border-radius: 2px;
-    color: #555;
-    font: 18px 'DejaVu Sans', sans-serif;
-    resize: none;
-    box-sizing: border-box;
-    height: 150px;
-    margin-top: 6px;
-    width: 540px;
+.man{
+    padding-right: 36px;
+    font: 18px Open Sans;
 }
 
-.button_send
-{
-    border-radius: 5px;
+.form_radio{
+    margin: 0 3px 0 1px;
+}
+
+.form_radio:hover{
+     cursor: pointer;
+}
+
+.button_send{
+    cursor: pointer;
     border: 1px solid #f5f5f5;
-    color: #f5f5f5;
-    background-color: #15a98c;
+    border-radius: 5px; 
     width: 220px;
     height: 50px;
-    margin-top: 46px;
-    margin-left: 210px;
     font: 19px Georgia, serif;
+    color: #f5f5f5;
+    background-color: #15a98c; 
+    margin-left: 2px;
+}
+.message{
+    margin: 3px 0 46px 2px;
+    border: 2px solid #c9c9c9;
+    resize: none;
+    color: #555;
+    font:18px Open Sans, sans-serif;
+    box-sizing: border-box;
+    height: 150px;
+    width: 100%;
+    padding: 15px 0 0 12px;
+    border-radius: 3px;
 }
 
-.field, .country, .message:focus
-{
-    outline-color: #15a98c;
+.message:hover{
+    cursor: pointer;
 }
 
-.your_name
-{
-    margin-bottom: 26px;
-    padding-bottom: 0px;
+.field:focus, .select:focus, .message:focus {
+    outline: none;
+    border: 2px solid #15a98c;
+    border-radius: 3px;
 }
