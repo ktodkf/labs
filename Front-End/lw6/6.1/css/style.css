@@ -243,21 +243,21 @@ body {
     padding: 67px 0 0 400px;
 }
 
-.forms{
+.forms {
     max-width: 960px;
     margin: 0 auto;
 }
 
-.write{
+.write {
     font: normal 35px/42px Open Sans;
 }
 
-.title{
+.title {
     text-align: center;
     margin: 57px 0 21px 0;
 }
 
-.left{
+.left {
     position: relative;
     left: 247px;
     top: 56px;
@@ -267,7 +267,7 @@ body {
     background: #c4c4c4;
 }
 
-.right{
+.right {
     position: relative;
     right: 250px;
     top: -62px;
@@ -277,23 +277,23 @@ body {
     background: #c4c4c4;
 }
 
-.control_label{
+.control_label {
     font: 400 20px/32px Open Sans;
     color: #333;
 }
 
-.required{
+.required {
     color: red;
     font-size: 24px;
 }
 
-.form{
+.form {
     max-width: 540px;
     padding-left: 7px;
     margin: 0 auto;
 }
 
-.field{
+.field {
     margin: 5px 0 0 2px;
     border: 2px solid #c9c9c9;
     width: 524px;
@@ -303,15 +303,15 @@ body {
     border-radius: 3px;
 }
 
-.field:hover{
+.field:hover {
     cursor: pointer;
 }
 
-.form_title{
+.form_field {
     margin-bottom: 22px;
 }
 
-.select{
+.select {
     margin: 4px 0 18px 2px;
     width: 540px;
     height: 50px;
@@ -326,50 +326,52 @@ body {
     font: 18px Open Sans, sans-serif;
     border-radius: 3px;
 }
-.select:hover{
+
+.select:hover {
     border-radius: 3px;
     border: 2px solid #a6a6a6;
     cursor: pointer;
 }
 
-.gender{
+.gender {
     margin: 11px 0 38px 2px;
 }
 
-.gender_radio{
+.gender_radio {
     margin-top: 10px;
 }
 
-.man{
+.man {
     padding-right: 36px;
     font: 18px Open Sans;
 }
 
-.form_radio{
+.form_radio {
     margin: 0 3px 0 1px;
 }
 
-.form_radio:hover{
-     cursor: pointer;
+.form_radio:hover {
+    cursor: pointer;
 }
 
-.button_send{
+.button_send {
     cursor: pointer;
     border: 1px solid #f5f5f5;
-    border-radius: 5px; 
+    border-radius: 5px;
     width: 220px;
     height: 50px;
     font: 19px Georgia, serif;
     color: #f5f5f5;
-    background-color: #15a98c; 
+    background-color: #15a98c;
     margin-left: 2px;
 }
-.message{
+
+.message {
     margin: 3px 0 46px 2px;
     border: 2px solid #c9c9c9;
     resize: none;
     color: #555;
-    font:18px Open Sans, sans-serif;
+    font: 18px Open Sans, sans-serif;
     box-sizing: border-box;
     height: 150px;
     width: 100%;
@@ -377,11 +379,13 @@ body {
     border-radius: 3px;
 }
 
-.message:hover{
+.message:hover {
     cursor: pointer;
 }
 
-.field:focus, .select:focus, .message:focus {
+.field:focus,
+.select:focus,
+.message:focus {
     outline: none;
     border: 2px solid #15a98c;
     border-radius: 3px;
