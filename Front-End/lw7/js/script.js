@@ -1,7 +1,7 @@
-function isPrimeDigit(digit){
+function isPrimeNumber(digit){
     let isPrime;
     if (typeof(digit) == 'number'){
-     combine(isPrime, digit);
+     isPrimeCheck(isPrime, digit);
     }
     else if (typeof(digit) == 'object'){
       if (digit.length == 0){
@@ -11,7 +11,7 @@ function isPrimeDigit(digit){
         for(let i = 0; i < digit.length; i++){
           let num = digit[i];
           let isPrime;
-          combine(isPrime, num);
+          isPrimeCheck(isPrime, num);
         }
       }
     }
@@ -20,7 +20,7 @@ function isPrimeDigit(digit){
     }
   }
   
-  function isPrimeCheck(isPrime, digit){
+  function isPrimeSimple(isPrime, digit){
     for (let i = 2; i < digit; i++){
     isPrime = true;
     if ((digit % i) == 0){
@@ -40,12 +40,12 @@ function isPrimeDigit(digit){
     }
   }
 
-  function combine(isPrime, digit) {
+  function isPrimeCheck(isPrime, digit) {
     isPrime = true;
     if (digit < 2){
       console.log(digit + ' непростое число');
     } else {
-      isPrime = isPrimeCheck(isPrime, digit);
+      isPrime = isPrimeSimple(isPrime, digit);
       isPrimePrint(isPrime, digit);
     }
   }
