@@ -31,7 +31,7 @@ function isPrimeDigit(digit){
     return isPrime;
   }
   
-  function primePrint(isPrime, digit){
+  function isPrimePrint(isPrime, digit){
     if (isPrime){
       console.log(digit + ' простое число');
     }
@@ -46,6 +46,6 @@ function isPrimeDigit(digit){
       console.log(digit + ' непростое число');
     } else {
       isPrime = isPrimeCheck(isPrime, digit);
-      primePrint(isPrime, digit);
+      isPrimePrint(isPrime, digit);
     }
   }
