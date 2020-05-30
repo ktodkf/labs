@@ -10,7 +10,7 @@ function isPrimeNumber(digit){
         for(let i = 0; i < digit.length; i++){
           let num = digit[i];
           let isPrime;
-          isPrimeCheck(isPrime, num);
+          isPrimeResult(isPrime, num);
       }
     } 
   }   
