@@ -1,9 +1,9 @@
 .background 
 {
     background: url("../images/background.png") no-repeat;
-    background-position-y: 23vw;
-    height: 175vw;
-    background-size: 114vw;
+    background-position-y: 35vw;
+    height: 218vw;
+    background-size: 120vw;
     position: absolute;
     z-index: -1;
     width: 100%;
@@ -19,7 +19,6 @@ body
     margin: 0;
     list-style-type: none;
     padding-left: 0;
-    display: flex;
 }
 
 .about_me 
@@ -31,7 +30,7 @@ body
     font: 7vw/8vw Georgia;
     transition: 0.4s;
     text-align: center;
-    padding: 11% 7% 14% 7%;
+    padding: 2% 5% 2% 5%;
 }
 
 .about_me:hover 
@@ -39,7 +38,7 @@ body
     color: #ffe;
     transition: 0.4s;
     background: #15a98b;
-    padding: 11% 7% 14% 7%;
+    padding: 2% 5% 2% 5%;;
 }
 
 .my_hobbies 
@@ -51,7 +50,7 @@ body
     font: 7vw/8vw  Georgia;
     transition: 0.4s;
     text-align: center;
-    padding: 11% 2% 14% 2%;
+    padding: 2% 5% 2% 5%;;
 }
 
 .my_hobbies:hover
@@ -59,7 +58,7 @@ body
     color: #ffe;
     transition: 0.4s;
     background: #15a98b;
-    padding: 11% 2% 14% 2%;
+    padding: 2% 5% 2% 5%;;
 }
 
 .favorite_film 
@@ -71,7 +70,7 @@ body
     font: 7vw/8vw  Georgia;
     transition: 0.4s;
     text-align: center;
-    padding: 9% 2% 10% 2%;
+    padding: 2% 5% 2% 5%;;
 }
 
 .favorite_film:hover
@@ -79,27 +78,12 @@ body
     color: #ffe;
     transition: 0.4s;
     background: #15a98b;
-    padding: 9% 2% 10% 2%;
-}
-
-.list_me
-{
-    width: 30%;
-}
-
-.list_hobby
-{
-    width: 30%;
-}
-
-.list_film
-{
-    width: 40%;
+    padding: 2% 5% 2% 5%;;
 }
 
 .my_photo
 {
-    width: 65vw;
+    width: 70vw;
     border-radius: 5px;
 }
 
@@ -218,7 +202,7 @@ body
 
 .name_film 
 {
-    font: Bold 7vw Open Sans;
+    font: 700 7vw Open Sans;
     color: #333;
     margin-bottom: 5vw;
 }
@@ -322,8 +306,8 @@ body
 
 .select
 {
-    margin: 1vw 0 7vw 1vw;
-    width: 86vw;
+    margin: 1vw 0 0 1vw;
+    width: 89vw;
     height: 17vw;
     border: 2px solid #c9c9c9;
     color: #555;
@@ -346,7 +330,7 @@ body
 
 .gender 
 {
-    margin: 8vw 0 11vw 1vw;
+    margin: 8vw 0 6vw 1vw;
 }
 
 .gender_radio
@@ -367,7 +351,7 @@ body
 
 .message
 {
-    margin: 1vw 0 15vw 1vw;
+    margin: 1vw 0 7vw 1vw;
     border: 2px solid #c9c9c9;
     resize: none;
     color: #555;
@@ -412,11 +396,16 @@ body
     text-align: center;
     font: 6vw/8vw Georgia;
     color: #555;
-    padding-top: 10vw;
+    padding: 15vw 1vw 2vw 1vw;
 }
 
 @media screen and (min-width: 480px) 
 {
+    .navigation_lists
+    {
+        display: flex;
+    }
+
     .about_me
     {
         font: 5vw Georgia;
@@ -536,43 +525,59 @@ body
 
     .select 
     {
-        background-position: 80vw 5vw;
-        height: 14vw;
-        font: 400 5vw Open Sans, sans-serif;
-        margin: 4vw 0;
-        width: 90vw;
+        background-position: 52vw 3vw;
+        height: 9vw;
+        font: 400 4vw Open Sans, sans-serif;
+        margin: 4vw 0 0 0;
+        width: 60vw;
     }
 
     .gender 
     {
-        margin: 5vw 0;
+        margin: 0 0 3vw 0;
     }
 
     .form_radio
     {
-        width: 5vw;
-        height: 4vw;
+        width: 3vw;
+        height: 3vw;
     }
 
+    .gender_radio
+    {
+        margin-top: 3vw;
+    }
+
+    .man
+    {
+        padding-right: 2vw;
+        font-size: 4vw;
+    }
     .message 
     {
         height: 40vw;
-        margin: 1vw 0 10vw 1vw;
+        margin: 1vw 0 5vw 1vw;
     }
 
     .button_send
     {
-        font: 6vw Georgia, serif;
+        font: 4vw Georgia, serif;
+        width: 30vw;
+        height: 13vw;
     }
 
     .button 
     {
-        font: 6vw/7vw Georgia
+        font: 4vw/5vw Georgia;
+        height: 2vw;
+        width: 45vw;
+        padding: 3vw 1vw 9vw 1vw;
+        margin: 0 2vw 5vw 30vw;
     }
 
     .end
     {
-        font: 5vw/7vw Georgia;
+        font: 4vw/6vw Georgia;
     }
 
     .favourite_films 
@@ -587,7 +592,55 @@ body
 
     .name_film
     {
-        font: Bold 6vw Open Sans;
+        font: 700 6vw Open Sans;
+    }
+
+    .forms
+    {
+        max-width: 60vw;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .write
+    {
+        font-size: 6vw;
+    }
+
+    .left
+    {
+        left: 30vw;
+        top: 10vw;
+        width: 10vw;
+    }
+
+    .right
+    {
+        top: -11vw;
+        right: 29vw;
+        width: 10vw;
+    }
+
+    .control_label
+    {
+        font-size: 5vw;
+    }
+
+    .required
+    {
+        font-size: 6vw;
+    }
+
+    .field
+    {
+        width: 56vw;
+        height: 6vw;
+        margin: 2vw 0 0 0;
+    }
+
+    .form_field
+    {
+        margin-bottom: 3vw;
     }
 }
 
@@ -595,7 +648,7 @@ body
 {
     .background
     {
-        background: url("../images/background3.png") no-repeat;
+        background: url("../images/background_two.png") no-repeat;
         background-size: 150vw;
         background-position-y: 9vw;
     }
@@ -703,6 +756,7 @@ body
     .list_one 
     {
         width: 47%;
+        margin-top: 5vw;
     }
 
     .list_one
@@ -714,11 +768,13 @@ body
     {
         font: 4vw/5vw Georgia;
         padding-left: 5vw;
+        margin: 2vw 0;
     }
 
     .link 
     {
         font: 4vw Georgia;
+        padding: 0;
     }
 
     .favourite_films 
@@ -740,7 +796,7 @@ body
 
     .name_film
     {
-        font: Bold 4vw Open Sans;
+        font: 700 4vw Open Sans;
     }
 
     .text_film 
@@ -756,44 +812,59 @@ body
 
     .button 
     {
-        font: 5vw/5vw Georgia;
-        padding: 4vw;
+        font: 4vw/4vw Georgia;
+        padding: 3vw;
+        width: 40vw;
+        height: 10vw;
+        margin-left: 30vw;
     }
 
+    .forms
+    {
+        max-width: 60vw;
+        margin: 0 auto;
+    }
     .write 
     {
-        font: normal 7vw Open Sans;
+        font: normal 6vw Open Sans;
+        margin-top: 5vw;
     }
 
     .left 
     {
-        left: 36vw;
-        top: 11vw;
-        width: 18vw;
+        left: 28vw;
+        top: 10vw;
+        width: 10vw;
     }
 
     .right 
     {
-        right: 36vw;
-        top: -13vw;
-        width: 18vw;
+        right: 28vw;
+        top: -11vw;
+        width: 10vw;
     }
 
     .control_label
     {
-        font: 400 5vw/5vw Open Sans;
+        font: 400 4vw/5vw Open Sans;
     }
 
     .required 
     {
-        font-size: 6vw;
+        font-size: 5vw;
     }
 
     .field 
     {
-        margin: 2vw 0 0 1vw;
+        margin: 2vw 0 0 0;
+        height: 5vw;
+        width: 56vw;
     }
 
+    .form_field
+    {
+        margin-bottom: 4vw;
+    }
     .man 
     {
         font: 5vw Open Sans;
@@ -809,157 +880,20 @@ body
     {
         font: 4vw/6vw Georgia;
     }
-}
 
-@media screen and (min-width: 1024px)
-{
-    .background 
+    .select
     {
-        background: url(../images/background2.png) no-repeat;
-        background-size: 100vw;
-        background-position-y: 9vw;
-    }
-
-    .my_photo 
-    {
-        width: 36vw;
-    }
-
-    .name 
-    {
-        margin-top: 3vw;
-    }
-
-    .text 
-    {
-        font: 3vw/4vw Georgia;
-    }
-
-    .my_hobby 
-    {
-        font: normal 4vw Open Sans;
-    }
-
-    .element_lists
-    {
-        font: 3vw/4vw Georgia;
-    }
-
-    .lists 
-    {
-        padding: 2vw 5vw 2vw 5vw;
-    }
-
-    .list_one 
-    {
-        width: 50%;
-    }
-
-    .list_two 
-    {
-        width: 50%;
-    }
-
-    .title_list 
-    {
-        font: 600 3vw/4vw Open Sans;
-    }
-
-    .element_lists 
-    {
-        font: 3vw/4vw Georgia;
-        margin: 1vw;
-    }
-
-    .link 
-    {
-        font: 3vw Georgia;
-    }
-
-    .favourite_films
-    {
-        font: normal 4vw Open Sans;
-        margin-top: 1vw;
-    }
-
-    .name_film
-    {
-        font: Bold 3vw Open Sans;
-        margin-bottom: 1vw;
-    }
-
-    .text_film 
-    {
-        font: 3vw/4vw Georgia;
-        padding: 1vw;
-        margin: 0;
-    }
-
-    .button 
-    {
-        width: 50%;
-        margin-left: 25vw;
-        font: 4vw/4vw Georgia;
-        padding: 3vw;
-        margin-top: 3vw;
-    }
-
-    .forms 
-    {
-        padding: 0 5vw;
-        margin: 0 auto;
-        max-width: 60%;
-    }
-
-    .write 
-    {
-        font: normal 5vw Open Sans;
-    }
-
-    .left 
-    {
-        left: 30vw;
-        top: 8vw;
-        width: 20vw;
-    }
-
-    .right
-    {
-        right: 30vw;
-        top: -9vw;
-        width: 20vw;
-    }
-
-    .field
-    {
-        width: 56vw;
-        margin-top: 2vw;
-        height: 5vw;
-    }
-
-    .control_label 
-    {
-        font: 400 3vw/4vw Open Sans;
-    }
-
-    .required
-    {
-        font-size: 4vw;
-    }
-
-    .form_field
-    {
-        margin-bottom: 2vw;
-    }
-
-    .select 
-    {
-        background-position: 52vw 2vw;
         height: 8vw;
-        font: 400 3vw Open Sans, sans-serif;
-        margin: 4vw 1vw;
         width: 60vw;
-        background-size: 5vw;
+        margin: 3vw 0 0 0;
+        background-size: 4vw;
+        background-position: 54vw 3vw;
+        font-size: 3vw;
+    }
+
+    .gender
+    {
+        margin: 0 0 3vw 0;
     }
 
     .gender_radio
@@ -967,105 +901,524 @@ body
         margin-top: 2vw;
     }
 
-    .form_radio 
+    .man
+    {
+        font-size: 3vw;
+    }
+
+    .form_radio
     {
         width: 2vw;
         height: 2vw;
     }
 
-    .man 
+    .message
     {
-        font: 3vw Open Sans;
-    }
-
-    .message 
-    {
-        height: 26vw;
-        margin-left: 0;
+        font-size: 3vw;
+        padding: 2vw 0 0 3vw;
+        height: 20vw;
+        width: 60vw;
+        margin: 2vw 0 5vw 0;
     }
 
     .button_send
     {
-        height: 11vw;
-        font: 4vw Georgia, serif;
+        height: 10vw;
+        font-size: 3vw;
+        width: 30vw;
     }
 
-    .end 
+    .end
     {
+        padding: 10vw 2vw 2vw 2vw;
         font: 3vw/4vw Georgia;
-        padding-top: 2vw;
     }
 }
 
-@media screen and (min-width: 1200px) 
-{
-    body 
-    {
-        margin: 0 auto;
-    }
 
+@media screen and (min-width: 1024px) 
+{
     .background 
     {
-        background: url("../images/background4.png") no-repeat;
-        position: absolute;
-        z-index: -1;
-        width: 100%;
-        background-position-y: 3vw;
+        background: url("../images/background_three.png") no-repeat;
+        background-position-y: 50px;
+        min-width: 1300px;
+        background-position-x: -260px;
     }
 
-    .navigation 
+    .information 
     {
-        height: 3em;
-    }
-
-    .about_me 
-    {
-        font: 1vw Georgia;
-        padding: 1vw 0;
-    }
-
-    .my_hobbies
-    {
-        font: 1vw Georgia;
-        padding: 1vw 0;
-    }
-
-    .favorite_film
-    {
-        font: 1vw Georgia;
-        padding: 1vw 0;
-    }
-
-    .list_film
-    {
-        width: 13%;
-    }
-
-    .list_hobby,
-    .list_me 
-    {
-        width: 10%;
-    }
-
-    .list_me 
-    {
-        margin-left: 10vw;
-    }
-
-    .navigation_lists 
-    {
-        justify-content: flex-start;
+        margin-top: 210px;
     }
 
     .container 
     {
-        max-width: 80%;
+        max-width: 1200px;
         margin: 0 auto;
     }
 
-    .about_me: hover 
+    .navigation 
     {
-        padding: 1vw 0;
-        font: 1vw Georgia;
+        height: 50px;
+        margin-left: 125px;
+    }
+
+    .list_me 
+    {
+        width: 140px;
+    }
+
+    .list_hobby 
+    {
+        width: 167px;
+    }
+
+    .list_film 
+    {
+        width: 230px;
+    }
+
+    .about_me 
+    {
+        background: url(../images/about_me_black.png) no-repeat center top;
+        display: block;
+        background-position: 21px;
+        font: 19px/22px Georgia;
+        padding: 14px 17px 15px 41px;
+        transition: 0.4s;
+    }
+
+    .about_me:hover 
+    {
+        background: #15a98b url(../images/about_me_white.png) no-repeat center top;
+        color: #ffe;
+        background-position: 21px;
+        padding: 14px 17px 15px 41px;
+        font: 19px/22px Georgia;
+    }
+
+    .my_hobbies 
+    {
+        font: 19px/22px Georgia;
+        padding: 15px 25px 14px 45px;
+        background: url(../images/hobby_black.png) no-repeat center top;
+        background-position: 19px;
+        transition: 0.4s;
+    }
+
+    .my_hobbies:hover 
+    {
+        background: #15a98b url(../images/hobby_white.png) no-repeat center top;
+        color: #ffe;
+        background-position: 19px;
+        font: 19px/22px Georgia;
+        padding: 15px 25px 14px 45px;
+    }
+
+    .favorite_film 
+    {
+        font: 19px/22px Georgia;
+        padding: 15px 20px 14px 39px;
+        background: url(../images/video_black.png) no-repeat center top;
+        background-position: 14px;
+        transition: 0.4s;
+    }
+
+    .favorite_film:hover 
+    {
+        background: #15a98b url(../images/video_white.png) no-repeat center top;
+        color: #ffe;
+        background-position: 15px;
+        transition: 0.4s;
+        font: 19px/22px Georgia;
+        padding: 15px 20px 14px 39px;
+    }
+
+    .my_photo 
+    {
+        width: 330px;
+        height: 350px;
+    }
+
+    .quotes 
+    {
+        margin: 25px 0 0 66px;
+    }
+
+    .name_quote 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name 
+    {
+        color: #333;
+        font: 700 48px/42px Open Sans;
+        margin: 83px 0 32px 60px;
+        order: 1;
+    }
+
+    .photo_quote 
+    {
+        display: flex;
+        padding: 0;
+        margin-left: 125px;
+    }
+
+    .text_quote::before 
+    {
+        content: '';
+
+    }
+
+    .text_quote 
+    {
+        font: italic 28px/42px Georgia;
+    }
+
+    .author 
+    {
+        font: 600 16px/42px Open Sans;
+        margin-top: 4px;
+    }
+
+    .info 
+    {
+        display: grid;
+        grid-template-rows: 230px 245px 60px;
+        grid-template-columns: 330px 590px;
+        padding: 0;
+        margin-left: 125px;
+    }
+
+    .text_hobby 
+    {
+        grid-row-start: 2;
+        grid-column-start: 2;
+        margin-left: 50px;
+    }
+
+    .list_one 
+    {
+        margin-top: 45px;
+        width: 377px;
+    }
+
+    .list_two 
+    {
+        margin-top: 43px;
+    }
+
+    .text 
+    {
+        text-align: left;
+        margin: 7px 0 16px 11px;
+        font: 19px/32px Georgia;
+        max-width: 560px;
+    }
+
+    .my_hobby 
+    {
+        font: normal 36px/60px Open Sans;
+        margin: 0 0 0 8px;
+    }
+
+    .title_list 
+    {
+        font: 600 24px/32px Open Sans;
+    }
+
+    .element_lists 
+    {
+        margin: 12px 0 41px 0px;
+        font: 19px/36px Georgia;
+        padding-left: 20px;
+    }
+
+    .text_me 
+    {
+        grid-row-start: 1;
+        grid-column-start: 2;
+        margin-left: 50px;
+    }
+
+    .vk_link 
+    {
+        grid-row-start: 3;
+        grid-column-start: 2;
+    }
+
+    .link 
+    {
+        font: 19px Georgia;
+        top: 30px;
+        padding-left: 58px;
+    }
+
+    .my_movies 
+    {
+        background-color: #f9f9f9;
+        margin-top: 54px;
+        margin-left: 45px;
+    }
+
+    .favourite_films 
+    {
+        font: normal 36px Open Sans;
+        color: #333333;
+        padding-left: 6px;
+        padding-top: 33px;
+    }
+
+    .name_film 
+    {
+        font: 700 22px Open Sans;
+        color: #333;
+        margin-bottom: 0;
+    }
+
+    .film_picture 
+    {
+        width: 285px;
+        height: 190px;
+        border-radius: 6px;
+    }
+
+
+    .text_film 
+    {
+        font: 16px/28px Georgia;
+        color: #555;
+        padding: 0;
+    }
+
+    .button 
+    {
+        border-radius: 5px;
+        display: block;
+        margin: 38px 0 0 485px;
+        font: 19px/32px Georgia;
+        text-decoration: none;
+        color: #f5f5f5;
+        background-color: #15a98c;
+        width: 220px;
+        height: 50px;
+        text-align: center;
+        padding: 10px 0 0 0;
+        box-sizing: border-box;
+        transition: 0.4s;
+    }
+
+    .forms 
+    {
+        max-width: 960px;
+        margin: 0 auto;
+        margin-left: 270px;
+    }
+
+    .write 
+    {
+        font: normal 35px/42px Open Sans;
+    }
+
+    .title 
+    {
+        text-align: center;
+        margin: 57px 0 21px 0;
+    }
+
+    .left 
+    {
+        position: relative;
+        left: 247px;
+        top: 56px;
+        display: inline-block;
+        height: 1px;
+        width: 200px;
+        background: #c4c4c4;
+    }
+
+    .right 
+    {
+        position: relative;
+        right: 250px;
+        top: -62px;
+        display: inline-block;
+        height: 1px;
+        width: 200px;
+        background: #c4c4c4;
+    }
+
+    .control_label 
+    {
+        font: 400 20px/32px Open Sans;
+        color: #333;
+    }
+
+    .required 
+    {
+        color: red;
+        font-size: 24px;
+    }
+
+    .form 
+    {
+        max-width: 540px;
+        padding-left: 7px;
+        margin: 0 auto;
+    }
+
+    .field 
+    {
+        margin: 4px 0 0 2px;
+        border: 2px solid #c9c9c9;
+        width: 524px;
+        height: 45px;
+        font: 400 18px 'Open Sans', sans-serif;
+        padding: 2px 0 0 12px;
+        border-radius: 3px;
+    }
+
+    .field:hover 
+    {
+        cursor: pointer;
+    }
+
+    .gender 
+    {
+        margin: 11px 0 38px 2px;
+    }
+
+    .gender_radio 
+    {
+        margin-top: 10px;
+    }
+
+    .man 
+    {
+        padding-right: 36px;
+        font: 18px Open Sans;
+    }
+
+    .form_radio 
+    {
+        margin: 0 3px 0 1px;
+        width: 10px;
+        height: 10px;
+    }
+
+    .form_radio:hover 
+    {
+        cursor: pointer;
+    }
+
+    .navigation_lists 
+    {
+        list-style-type: none;
+        margin: 0;
+        padding-left: 0;
+        display: flex;
+    }
+
+    .my_photo 
+    {
+        border-radius: 5px;
+    }
+
+    .films 
+    {
+        padding-left: 5px;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .film 
+    {
+        width: 285px;
+        box-sizing: border-box;
+        margin-right: 20px;
+    }
+
+    .end 
+    {
+        display: block;
+        position: absolute;
+        text-align: center;
+        font: 16px/32px Georgia;
+        color: #555;
+        padding: 67px 0 0 320px;
+    }
+
+    .form_field 
+    {
+        margin-bottom: 22px;
+    }
+
+    .select 
+    {
+        margin: 4px 0 18px 2px;
+        width: 540px;
+        height: 50px;
+        border: 2px solid #c9c9c9;
+        color: #555;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url(../images/arrow.png) no-repeat;
+        background-position: 497px 14px;
+        padding-left: 15px;
+        font: 18px Open Sans, sans-serif;
+        border-radius: 3px;
+    }
+
+    .select:hover 
+    {
+        border-radius: 3px;
+        border: 2px solid #a6a6a6;
+        cursor: pointer;
+    }
+
+    .button_send 
+    {
+        cursor: pointer;
+        border: 1px solid #f5f5f5;
+        border-radius: 5px;
+        width: 220px;
+        height: 50px;
+        font: 19px Georgia, serif;
+        color: #f5f5f5;
+        background-color: #15a98c;
+        margin-left: 2px;
+    }
+
+    .message 
+    {
+        margin: 3px 0 46px 2px;
+        border: 2px solid #c9c9c9;
+        resize: none;
+        color: #555;
+        font: 18px Open Sans, sans-serif;
+        box-sizing: border-box;
+        height: 150px;
+        width: 100%;
+        padding: 15px 0 0 12px;
+        border-radius: 3px;
+    }
+
+    .message:hover 
+    {
+        cursor: pointer;
+    }
+
+    .field:focus,
+    .select:focus,
+    .message:focus 
+    {
+        outline: none;
+        border: 2px solid #15a98c;
+        border-radius: 3px;
     }
 }
