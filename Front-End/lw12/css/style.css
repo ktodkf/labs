@@ -131,14 +131,15 @@ body
 
 .text 
 {
-    font: 7vw/9vw Georgia;
+    font: 19px/21px Georgia;
     color: #555;
     margin: 0;
 }
 
 .my_hobby
 {
-    font: normal 12vw/14vw Open Sans;
+    font: normal 30px Open Sans;
+    margin: 2vw 0;
 }
 
 .lists
@@ -148,26 +149,26 @@ body
 
 .title_list 
 {
-    font: 600 8vw/10vw Open Sans;
+    font: 600 24px/28px Open Sans;
     color: #15a98c;
 }
 
 .element_lists 
 {
     color: #555;
-    font: 7vw/10vw Georgia;
+    font: 19px/21px Georgia;
     padding-left: 10vw;
-    margin: 5vw 0 5vw 0;
+    margin: 3vw 0;
 }
 
 .link
 {
     color: #15a98b;
-    font: 7vw Georgia;
+    font: 24px Georgia;
     position: relative;
     text-decoration: underline;
     transition: 0.4s;
-    padding: 0 5vw 0 5vw;
+    padding: 5vw 0;
 }
 
 .link::after 
@@ -179,7 +180,7 @@ body
 
 .favourite_films
 {
-    font: normal 9vw Open Sans;
+    font: normal 34px Open Sans;
     color: #333;
     padding: 5vw 5vw 0 3vw;
 }
@@ -187,6 +188,7 @@ body
 .my_movies
 {
     background-color: #f9f9f9;
+    padding-bottom: 5vw;
 }
 
 .films 
@@ -196,26 +198,32 @@ body
 
 .film_picture
 {
-    width: 90vw;
+    width: 80vw;
     border-radius: 5px;
 }
 
 .name_film 
 {
-    font: 700 7vw Open Sans;
+    font: 700 28px Open Sans;
     color: #333;
-    margin-bottom: 5vw;
+    margin: 1vw 0;
 }
 
 .text_film 
 {
-    font: 6vw/8vw Georgia;
+    font: 19px/21px Georgia;
     color: #555;
+    margin: 2vw 0;
+}
+
+.text_hobby
+{
+    margin-bottom: 5vw;
 }
 
 .film
 {
-    margin-bottom: 15vw;
+    margin-bottom: 10vw;
     box-sizing: border-box;
 }
 
@@ -296,7 +304,7 @@ body
 
 .forms
 {
-    padding: 0 5vw;
+    padding: 0 5vw 10vw 5vw;
 }
 
 .field:hover
@@ -392,11 +400,11 @@ body
 .end
 {
     display: block;
-    position: absolute;
     text-align: center;
     font: 6vw/8vw Georgia;
     color: #555;
-    padding: 15vw 1vw 2vw 1vw;
+    padding: 5vw 2vw 5vw 2vw;
+    background-color: #f9f9f9;
 }
 
 @media screen and (min-width: 481px) 
@@ -487,30 +495,9 @@ body
         padding: 5vw 0;
     }
 
-    .text 
+    .text_hobby
     {
-        font: 5vw/7vw Georgia;
-    }
-
-    .my_hobby
-    {
-        font: normal 10vw Open Sans;
-        margin: 5vw 0;
-    }
-
-    .title_list 
-    {
-        font: 600 6vw/5vw Open Sans;
-    }
-
-    .element_lists 
-    {
-        font: 5vw/7vw Georgia;
-    }
-
-    .link
-    {
-        font: 6vw Georgia;
+        margin-bottom: 5vw;
     }
 
     .control_label
@@ -570,8 +557,8 @@ body
     {
         font: 4vw/5vw Georgia;
         height: 2vw;
-        width: 45vw;
-        padding: 3vw 1vw 9vw 1vw;
+        width: 40vw;
+        padding: 2vw 1vw 7vw 1vw;
         margin: 0 2vw 5vw 30vw;
     }
 
@@ -580,26 +567,11 @@ body
         font: 4vw/6vw Georgia;
     }
 
-    .favourite_films 
-    {
-        font: normal 8vw Open Sans;
-    }
-
-    .text_film 
-    {
-        font: 5vw/7vw Georgia;
-    }
-
-    .name_film
-    {
-        font: 700 6vw Open Sans;
-    }
-
     .forms
     {
         max-width: 60vw;
         margin: 0 auto;
-        padding: 0;
+        padding: 0 0 10vw 0;
     }
 
     .write
@@ -650,39 +622,46 @@ body
     {
         background: url("../images/background_two.png") no-repeat;
         background-size: 150vw;
-        background-position-y: 9vw;
+        background-position-y: 8vw;
+        height: 70vw;
     }
 
     .list_me 
     {
-        width: 23%;
+        width: 14%;
     }
 
     .list_hobby 
     {
-        width: 29%;
+        width: 21%;
     }
 
     .list_film
     {
-        width: 48%;
+        width: 29%;
+    }
+    
+    .navigation_lists
+    {
+        display: flex;
+        justify-content: center;
     }
 
     .about_me
     {
-        font: 4vw/5vw Georgia;
-        padding: 2vw 0;
+        font: 3vw/4vw Georgia;
+        padding: 2vw 1vw;
     }
 
     .about_me:hover
     {
-        font: 4vw/5vw Georgia;
-        padding: 2vw 0;
+        font: 3vw/4vw Georgia;
+        padding: 2vw 1vw;
     }
 
     .my_hobbies
     {
-        font: 4vw/5vw Georgia;
+        font: 3vw/4vw Georgia;
         padding: 2vw 1vw;
     }
 
@@ -693,38 +672,44 @@ body
 
     .favorite_film
     {
-        font: 4vw/5vw Georgia;
-        padding: 2vw 0;
+        font: 3vw/4vw Georgia;
+        padding: 2vw 1vw;
     }
 
     .favorite_film:hover 
     {
-        padding: 2vw 0;
+        padding: 2vw 1vw;
     }
 
     .my_photo
     {
-        width: 45vw;
+        width: 30vw;
+    }
+    
+    .photo_quote
+    {
+        padding: 5vw 5vw 2vw 5vw;
     }
 
     .name 
     {
-        font: 700 7vw/8vw Open Sans;
-        margin-top: 7vw;
-        margin-bottom: 7vw;
+        font: 700 5vw/6vw Open Sans;
+        margin-top: 3vw;
+        margin-bottom: 4vw;
         color: #fff;
     }
 
     .text_quote 
     {
-        font: italic 5vw/6vw Georgia;
+        font: italic 4vw/4vw Georgia;
         color: #fff;
     }
 
     .author
     {
-        font: 600 3vw Open Sans;
+        font: 600 2vw Open Sans;
         color: #fff;
+        margin: 2vw 0;
     }
 
     .info 
@@ -732,31 +717,19 @@ body
         padding: 0vw 5vw
     }
 
-    .text
-    {
-        font: 4vw/5vw Georgia;
-    }
-
     .my_hobby
     {
-        font: normal 6vw Open Sans;
         margin: 2vw 0;
+    }
+    
+    .text_hobby
+    {
+        margin-bottom: 2vw;
     }
 
     .lists
     {
         display: flex;
-    }
-
-    .title_list
-    {
-        font: 600 4vw/4vw Open Sans;
-    }
-
-    .list_one 
-    {
-        width: 47%;
-        margin-top: 5vw;
     }
 
     .list_one
@@ -766,20 +739,13 @@ body
 
     .element_lists
     {
-        font: 4vw/5vw Georgia;
         padding-left: 5vw;
         margin: 2vw 0;
     }
 
     .link 
     {
-        font: 4vw Georgia;
         padding: 0;
-    }
-
-    .favourite_films 
-    {
-        font: normal 6vw Open Sans;
     }
 
     .film 
@@ -792,17 +758,16 @@ body
     .film_picture
     {
         width: 40vw;
+        align-self: center;
     }
 
     .name_film
     {
-        font: 700 3vw Open Sans;
         margin: 0;
     }
 
     .text_film 
     {
-        font: 3vw/4vw Georgia;
         padding: 1vw;
         margin: 0;
     }
@@ -927,7 +892,7 @@ body
 
     .end
     {
-        padding: 10vw 2vw 2vw 2vw;
+        padding: 3vw 2vw 2vw 2vw;
         font: 3vw/4vw Georgia;
     }
 }
@@ -1157,7 +1122,8 @@ body
     {
         background-color: #f9f9f9;
         margin-top: 54px;
-        margin-left: 45px;
+        padding-left: 45px;
+        padding-bottom: 30px;
     }
 
     .favourite_films 
@@ -1214,6 +1180,7 @@ body
     .forms 
     {
         margin: 0 auto;
+        padding-bottom: 5vw;
     }
 
     .write 
@@ -1335,11 +1302,9 @@ body
     .end 
     {
         display: block;
-        position: absolute;
         text-align: center;
         font: 16px/32px Georgia;
         color: #555;
-        padding: 67px 0 0 160px;
     }
 
     .form_field 
@@ -1420,7 +1385,18 @@ body
         grid-gap: 0 50px;
     }
 
+    .container
+    {
+        margin: 0;
+        max-width: 100%;
+    }
+
     .text_me
+    {
+        margin-left: 0;
+    }
+
+    .navigation
     {
         margin-left: 0;
     }
@@ -1456,10 +1432,5 @@ body
     .button
     {
         margin-left: 480px;
-    }
-
-    .end
-    {
-        padding-left: 250px;
     }
 }
