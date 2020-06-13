@@ -1137,9 +1137,9 @@ body
     {
         background-color: #f9f9f9;
         margin-top: 54px;
-        padding-left: 45px;
         padding-bottom: 30px;
-        padding-right: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 
     .favourite_films 
@@ -1163,7 +1163,7 @@ body
 
     .film_picture 
     {
-        width: 300px;
+        width: 290px;
         height: 190px;
         border-radius: 6px;
     }
@@ -1432,7 +1432,7 @@ body
         padding: 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 20px;
+        grid-gap: 10px;
     }
 
     .film
@@ -1442,12 +1442,13 @@ body
 
     .button
     {
-        margin-left: 510px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .left
     {
-        top: 93px;
+        top: 50px;
     }
 
     .information
