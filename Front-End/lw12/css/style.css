@@ -295,7 +295,7 @@ body
 {
     margin: 4vw 0 0 1vw;
     border: 2px solid #c9c9c9;
-    width: 79vw;
+    width: 86vw;
     height: 13vw;
     font: 400 7vw 'Open Sans', sans-serif;
     padding: 1vw 0 1vw 3vw;
@@ -315,7 +315,7 @@ body
 .select
 {
     margin: 1vw 0 0 1vw;
-    width: 84vw;
+    width: 90vw;
     height: 17vw;
     border: 2px solid #c9c9c9;
     color: #555;
@@ -1135,7 +1135,7 @@ body
 
     .my_movies 
     {
-        background-color: #f9f9f9;
+        
         margin-top: 54px;
         padding-bottom: 30px;
         max-width: 1200px;
@@ -1146,14 +1146,10 @@ body
     {
         font: normal 36px Open Sans;
         color: #333333;
-        padding-left: 6px;
+        padding-left: 50px;
         padding-top: 33px;
     }
 
-    .films
-    {
-        padding-left: 0;
-    }
     .name_film 
     {
         font: 700 22px Open Sans;
@@ -1214,7 +1210,7 @@ body
     {
         position: relative;
         left: 247px;
-        top: 85px;
+        top: 47px;
         display: inline-block;
         height: 1px;
         width: 200px;
@@ -1225,7 +1221,7 @@ body
     {
         position: relative;
         right: 250px;
-        top: -62px;
+        top: -56px;
         display: inline-block;
         height: 1px;
         width: 200px;
@@ -1399,6 +1395,7 @@ body
     .info
     {
         grid-gap: 0 50px;
+        margin-left: 0;
     }
 
     .container
@@ -1432,7 +1429,7 @@ body
         padding: 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 10px;
+        grid-gap: 20px;
     }
 
     .film
@@ -1448,11 +1445,28 @@ body
 
     .left
     {
-        top: 50px;
+        top: 58px;
+    }
+
+    .right
+    {
+        top: -63px;
     }
 
     .information
     {
-        margin-left: 125px;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+    .movies
+    {
+        background-color: #f9f9f9;
+        padding-bottom: 30px;
+    }
+
+    .photo_quote
+    {
+        margin-left: 0;
     }
 }
