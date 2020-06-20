@@ -47,7 +47,7 @@ function isPrimePrint(isPrime, digit) {
 }
 
 function isPrimeResult(digit) {
-  isPrime = isPrimeDigit(digit);
+  let isPrime = isPrimeDigit(digit);
   isPrimePrint(isPrime, digit);
   return isPrime;
 }
