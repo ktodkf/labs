@@ -25,7 +25,7 @@ function isPrimeNumber(digit) {
 
 function isPrimeDigit(digit) {
   for (let i = 2; i < digit; i++) {
-    isPrime = true;
+    let isPrime = true;
     if ((digit % i) == 0) {
       isPrime = false;
       break;
@@ -47,7 +47,6 @@ function isPrimePrint(isPrime, digit) {
 }
 
 function isPrimeResult(digit) {
-  isPrime = true;
   isPrime = isPrimeDigit(digit);
   isPrimePrint(isPrime, digit);
   return isPrime;
